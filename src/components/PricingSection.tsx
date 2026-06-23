@@ -4,39 +4,38 @@ import { QuoteFormDialog } from "@/components/QuoteFormDialog"
 
 const pricingTiers = [
   {
-    name: "Базовый",
-    price: "99 900",
+    name: "Логотип",
+    price: "15 000",
     features: [
-      "До 5 страниц",
-      "Адаптивный дизайн",
-      "Базовая SEO-оптимизация",
-      "Форма обратной связи",
-      "1 месяц поддержки",
+      "3 концепции на выбор",
+      "Доработка выбранного варианта",
+      "Чёрно-белая и цветная версии",
+      "Файлы в векторе и для печати",
+      "Передача исходников",
     ],
     highlighted: false,
   },
   {
-    name: "Про",
-    price: "249 900",
+    name: "Фирменный стиль",
+    price: "45 000",
     features: [
-      "До 15 страниц",
-      "Премиум-дизайн",
-      "Расширенная SEO-оптимизация",
-      "Интеграция CMS",
-      "Функционал e-commerce",
-      "3 месяца поддержки",
+      "Логотип и его вариации",
+      "Фирменные цвета и шрифты",
+      "Визитки и фирменный бланк",
+      "Шаблоны для соцсетей",
+      "Мини-гайдлайн по стилю",
     ],
     highlighted: true,
   },
   {
-    name: "Индивидуальный",
+    name: "Дизайн сайта",
     price: "По запросу",
     features: [
-      "Неограниченно страниц",
-      "Кастомный функционал",
-      "API-интеграции",
-      "Персональный менеджер",
-      "6 месяцев поддержки",
+      "Дизайн всех экранов в Figma",
+      "Адаптив под мобильные",
+      "Прототип и анимации",
+      "Подбор изображений и иконок",
+      "Передача макета разработчику",
     ],
     highlighted: false,
   },
@@ -60,10 +59,10 @@ export function PricingSection() {
             Прозрачные цены
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-balance">
-            Выберите <span className="text-primary">идеальный тариф</span> для вашего проекта
+            Выберите <span className="text-primary">подходящий формат</span> для вашего бренда
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            От стартапов до крупного бизнеса — у нас есть подходящее решение
+            От отдельного логотипа до полного фирменного стиля и дизайна сайта
           </p>
         </div>
 
@@ -121,8 +120,8 @@ export function PricingSection() {
 
         <div className="mt-12 text-center">
           <p className="text-sm text-muted-foreground">
-            Все тарифы включают <span className="text-primary font-semibold">бесплатную настройку хостинга</span> и{" "}
-            <span className="text-primary font-semibold">SSL-сертификат</span>
+            Все форматы включают <span className="text-primary font-semibold">бесплатную консультацию</span> и{" "}
+            <span className="text-primary font-semibold">передачу исходников</span>
           </p>
         </div>
       </div>

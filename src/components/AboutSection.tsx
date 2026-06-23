@@ -2,19 +2,19 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle2, Sparkles } from "lucide-react"
 
 const values = [
-  { title: "Качество", description: "Высококлассные решения, соответствующие самым высоким стандартам" },
-  { title: "Доступность", description: "Профессиональные сайты по честным и прозрачным ценам" },
-  { title: "Прозрачность", description: "Четкая коммуникация без скрытых платежей" },
-  { title: "Клиентоориентированность", description: "Ваши цели и пожелания всегда в приоритете" },
-  { title: "Масштабируемость", description: "Сайты, которые растут вместе с вашим бизнесом" },
-  { title: "Гибкость", description: "Быстрая адаптация под меняющиеся потребности" },
+  { title: "Индивидуальный подход", description: "Каждый бренд получает уникальный образ, а не шаблон" },
+  { title: "Внимание к деталям", description: "Прорабатываю каждый элемент до идеального результата" },
+  { title: "Прозрачность", description: "Понятные этапы и фиксированная стоимость без сюрпризов" },
+  { title: "Сроки", description: "Соблюдаю договорённости и держу вас в курсе процесса" },
+  { title: "Передача исходников", description: "Все рабочие файлы остаются у вас навсегда" },
+  { title: "Поддержка", description: "Помогу с правками и применением стиля после сдачи" },
 ]
 
 const stats = [
-  { number: "50+", label: "Проектов" },
-  { number: "45+", label: "Довольных клиентов" },
-  { number: "30+", label: "Созданных логотипов" },
-  { number: "3+", label: "Года опыта" },
+  { number: "120+", label: "Проектов" },
+  { number: "90+", label: "Довольных клиентов" },
+  { number: "80+", label: "Созданных логотипов" },
+  { number: "6+", label: "Лет опыта" },
 ]
 
 export function AboutSection() {
@@ -27,7 +27,7 @@ export function AboutSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
             <Sparkles className="h-4 w-4" />
-            О CodeCraft
+            Обо мне
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
             Качество, которое{" "}
@@ -39,7 +39,7 @@ export function AboutSection() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Создание сайта не должно быть дорогим. Мы разрабатываем индивидуальные решения, которые идеально соответствуют пожеланиям каждого клиента.
+            Я дизайнер-фрилансер. Создаю дизайн сайтов, фирменный стиль и логотипы для брендов, которые хотят выделяться. Каждый проект — индивидуальное решение под ваши задачи и характер.
           </p>
         </div>
 

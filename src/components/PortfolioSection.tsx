@@ -4,40 +4,40 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Умный помощник по выборам",
-    category: "AI/ML и веб-разработка",
-    image: "/omgekeerdestemwijzer-banner.png",
+    title: "Кофейня «Зерно»",
+    category: "Фирменный стиль",
+    image: "https://cdn.poehali.dev/projects/5d5855db-2eb1-4cae-af66-708e8b2714b5/files/dd9d9db7-f41a-4373-aa6d-98ae7fabc33d.jpg",
     description:
-      "AI-приложение для выборов. Пользователи задают вопросы о позициях партий и получают 100% фактические ответы из официальных программ с использованием RAG-технологии.",
-    url: "https://de-omgekeerde-stemwijzer.onrender.com/",
-    tags: ["Next.js", "AI/ML", "RAG", "TypeScript"],
+      "Полный фирменный стиль для городской кофейни: логотип, упаковка, визитки и оформление точки. Тёплый и уютный образ, который запоминается с первого взгляда.",
+    url: "#contact",
+    tags: ["Логотип", "Брендинг", "Упаковка"],
   },
   {
-    title: "Автомойка Tahsin",
-    category: "Веб-дизайн и разработка",
-    image: "/autopoetsbedrijf-tahsin-project.png",
+    title: "Фитнес-студия PULSE",
+    category: "Дизайн сайта",
+    image: "https://cdn.poehali.dev/projects/5d5855db-2eb1-4cae-af66-708e8b2714b5/files/f679f8a6-3abe-4a6d-93e9-9c94668863fd.jpg",
     description:
-      "Профессиональный сайт для автомойки с 20-летним опытом. Полная презентация услуг, автомойки и гаража с современным адаптивным дизайном.",
-    url: "https://www.autopoetsbedrijftahsin.nl/",
-    tags: ["React", "Next.js", "Tailwind CSS"],
+      "Дизайн современного лендинга для фитнес-студии с записью на тренировки. Энергичный визуал, удобная структура и адаптация под мобильные.",
+    url: "#contact",
+    tags: ["Веб-дизайн", "Figma", "Лендинг"],
   },
   {
-    title: "Кадровое агентство CAN",
-    category: "Веб-разработка",
-    image: "/can-uitzendbureau-project.png",
+    title: "IT-стартап Nova",
+    category: "Разработка логотипа",
+    image: "https://cdn.poehali.dev/projects/5d5855db-2eb1-4cae-af66-708e8b2714b5/files/8b1c3dfd-b388-421e-a02c-08fc6aadccd1.jpg",
     description:
-      "Кадровое агентство с 30-летним опытом в садоводческом секторе. Сайт с обзором услуг и прямыми контактами для работодателей и соискателей.",
-    url: "https://canbv.nl/",
-    tags: ["Next.js", "React", "Tailwind CSS"],
+      "Лаконичный геометричный логотип для технологического стартапа. Несколько вариантов начертания и готовый набор файлов для любых носителей.",
+    url: "#contact",
+    tags: ["Логотип", "Вектор", "Айдентика"],
   },
   {
-    title: "Портфолио Murat Sahin",
-    category: "Портфолио-сайт",
-    image: "/murat-sahin-portfolio.png",
+    title: "Косметика BLOOM",
+    category: "Брендбук",
+    image: "https://cdn.poehali.dev/projects/5d5855db-2eb1-4cae-af66-708e8b2714b5/files/8e070b66-a885-4dde-b935-c4c293697d4b.jpg",
     description:
-      "Профессиональное портфолио full-stack разработчика. Демонстрация проектов, навыков и опыта с современным минималистичным дизайном и темной темой.",
-    url: "https://murat-sahin-dev.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", ".NET Core"],
+      "Полный брендбук для бренда натуральной косметики: палитра, шрифты, паттерны и правила использования. Единый стиль во всех точках контакта.",
+    url: "#contact",
+    tags: ["Брендбук", "Гайдлайн", "Айдентика"],
   },
 ]
 
@@ -46,9 +46,9 @@ export function PortfolioSection() {
     <section id="portfolio" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Наше портфолио</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Мои работы</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Ознакомьтесь с подборкой наших последних проектов и узнайте, как мы помогаем бизнесу расти с помощью мощных цифровых решений.
+            Подборка проектов по дизайну сайтов, фирменному стилю и логотипам. Каждый бренд — это отдельная история и свой визуальный характер.
           </p>
         </div>
 
